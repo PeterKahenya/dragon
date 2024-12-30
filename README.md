@@ -1,9 +1,7 @@
 # Dragon AI
 
-This is an effort to progressively build a LLM.
+## Bee Hummingbird
 
-Different branches will show models of increasing sizes and training data:
+<img title="a title" alt="Alt text" src="assets/bee_hummingbird.jpg" width="150">
 
-The names will be named after birds in increasing order of size.
-
-- [Bee Hummingbird](https://github.com/PeterKahenya/dragon/tree/bee-hummingbird)
+A tiny LLM that can generate text.
