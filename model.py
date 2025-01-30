@@ -79,7 +79,7 @@ class DecoderBlock(torch.nn.Module):
         out = X + self.mlp(self.ln_2(X))
         return out
         
-class DragonLM(torch.nn.Module):
+class BeeHummingBirdLM(torch.nn.Module):
     def __init__(self, params: ModelParams):
         super().__init__()
         self.params = params
