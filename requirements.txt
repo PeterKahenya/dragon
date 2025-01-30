@@ -5,4 +5,8 @@ datasets==3.2.0
 ftfy==6.3.1
 regex==2024.11.6
 seaborn==0.13.2
-numpy==2.2.2
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+torchsummary==1.5.1
+transformers==4.48.0
