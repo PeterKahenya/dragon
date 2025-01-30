@@ -23,7 +23,6 @@ def count_words_in_documents(documents: list, processes: int = 1) -> dict:
         - Count the frequency of each segment in a list of documents
     """
     chunk_size = (len(documents) // processes) if len(documents) > processes else 1
-    print(chunk_size)
     with mp.Pool(processes = processes) as pool:
         word_counts = pool.map(count_words, documents, chunksize=chunk_size)
     word_counts = sum(word_counts, Counter())
